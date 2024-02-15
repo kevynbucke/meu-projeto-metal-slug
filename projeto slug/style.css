@@ -23,6 +23,7 @@ html, body{
     min-height: 96vh; 
     overflow-x: hidden;
     border-radius: 10px;
+    color: #00000000;
 }
 .top{
     background-image: url(imagens/fundo1.jpg);
@@ -33,7 +34,7 @@ html, body{
 }
 .top > p{
     background: radial-gradient(circle at center, #000000, #354235);
-    color: rgb(255, 136, 0);
+    color: #ff8800;
     text-align: center;
     font-size: 110%;
     border-radius: 20px;
@@ -76,8 +77,9 @@ html, body{
     position: absolute;
     top: 50vh;
     bottom: 0;
-    left: 1%;
+    left: -2%;
     right: 0;
+    z-index: 1;
 }
 #fioc{
     filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.918));
@@ -183,7 +185,7 @@ html, body{
     position: absolute;
     top: 135vh;
     bottom: 0;
-    left: 4%;
+    left: 5vh;
     right: 0;
 }
 #snk{
@@ -220,6 +222,22 @@ html, body{
     left: 50vh;
     right: 0;
 }
+.cubo{
+    
+    display: list-item;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    position: absolute;
+    min-width: 30px;
+    min-height: 30px;
+    top: 161vh;
+    left: 12vh;
+    padding: 10px;
+}
+#c1{
+    background-color: #000000;
+}
+
 
 footer{
     background: radial-gradient(circle at center, #000000, #354235);
@@ -227,8 +245,4 @@ footer{
     text-align: center;
     border-radius: 10px;
 
-}
-
-h2{
-    padding: 20px 30px 40px ;
 }
